@@ -1,2 +1,2 @@
-# Sample-Website-2
-Sample animated website . 
+# Animated-Website
+Sample Website containing animation designed for learning purpose. 
