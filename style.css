@@ -1,0 +1,173 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.header-area {
+  padding: 290px 0 225px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+
+}
+
+.inner-header h1 {
+  margin-top: -140px;
+  font-size: 40px;
+  width: 400px;
+
+}
+
+.inner-header a {
+  padding: 10px 25px;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: white;
+  font-size: 12px;
+
+
+}
+
+.header-area .bg-img {
+  height: 370px;
+  width: 370px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: -80px;
+  z-index: -1;
+  animation: bikerun 6s infinite;
+  transition: all 0.20s;
+}
+
+@keyframes bikerun {
+  0% {
+    right: -27px;
+  }
+
+  100% {
+    right: 100%;
+  }
+
+}
+
+.header-area .bg-img-2 {
+  height: 130px;
+  width: 110px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 20%;
+  top: 10%;
+  z-index: -1;
+  animation: balloonfly 15s infinite;
+  transition: all 0.5s;
+}
+
+@keyframes balloonfly {
+  0% {
+    top: 40%;
+    opacity: 0;
+  }
+
+  30% {
+    transform: scale(1.5);
+    opacity: 1;
+
+  }
+
+  100% {
+    top: 10%;
+    opacity: 0;
+  }
+}
+
+.header-area .bg-img-3{
+  height: 30px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 27%;
+  top: 10%;
+  z-index: -1;
+  animation: balloonfly-2 10s infinite;
+  transition: all 0.5s;
+}
+
+@keyframes balloonfly-2 {
+  0% {
+    top: 40%;
+    opacity: 0;
+  }
+
+  30% {
+    transform: scale(1.5);
+    opacity: 1;
+
+  }
+
+  100% {
+    top: 10%;
+    opacity: 0;
+  }
+}
+
+.header-area .bg-img-4{
+  height: 20px;
+  width: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  z-index: -1;
+  animation: balloonfly-3 10s infinite;
+  transition: all 0.5s;
+}
+
+@keyframes balloonfly-3 {
+  0% {
+    top: 40%;
+    opacity: 0.6;
+  }
+
+  30% {
+    transform: scale(1.5);
+    opacity: 1;
+
+  }
+
+  100% {
+    top: 10%;
+    opacity: 0;
+  }
+}
+ 
+.social{
+    position: absolute;
+    right: -650px;
+    bottom: -250px;
+    cursor: pointer;
+}
+
+.social img{
+  width: 25px;
+  display: block;
+  margin:10px 5px;
+  size: 10px;
+  color :white;
+
+}
+
+.social a{
+    color :white;
+    display :inline;
+    font-family: sans-serif;
+}
